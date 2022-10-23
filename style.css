@@ -11,3 +11,21 @@ body {
 .header{
     display: flex;
     }
+body {
+    font-family: 'Titan One';
+    font-size:40px
+  } 
+  main{
+    width: 80%;
+    margin: auto;
+}  
+.left {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.right {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
