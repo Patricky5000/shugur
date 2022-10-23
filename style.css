@@ -1,0 +1,13 @@
+*{box-sizing:border-box;
+}
+body {
+    background-color:rgb(204, 204, 204);
+  }
+
+  .header {
+    padding: 20px;
+    background:rgb(69, 144, 191);
+    }  
+.header{
+    display: flex;
+    }
