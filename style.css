@@ -2,30 +2,25 @@
 }
 body {
     background-color:rgb(204, 204, 204);
+    text-align: center;
   }
-
+ 
+  .header{
+    display: flex;
+    }
   .header {
     padding: 20px;
     background:rgb(69, 144, 191);
     }  
-.header{
-    display: flex;
-    }
+
 body {
     font-family: 'Titan One';
     font-size:40px
-  } 
-  main{
-    width: 80%;
-    margin: auto;
-}  
+}
 .left {
     display: flex;
-    width: 80%;
-    margin: auto;
-}
-.right {
-    display: flex;
-    width: 80%;
-    margin: auto;
+    margin-top: 50px; 
+    margin-bottom: 50px;
+    flex-direction: row;
+    justify-content: center;
 }
