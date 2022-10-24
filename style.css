@@ -4,43 +4,44 @@ body {
     background-color:rgb(204, 204, 204);
     text-align: center;
   }
+main{
+    width: 80%;
+    margin: 40px 50px;
+  }
  
-  .header{
-    display: flex;
-    }
   .header {
+    display :flex;
     padding: 20px;
     background:rgb(69, 144, 191);
     }  
-
+.header .logo{
+  margin-left: 25%;
+}
 body {
-    font-family: 'Titan One';
-    font-size:40px
+    font-family: pedestria-mvb, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .card {
+  position: relative;
+  display: inline-block;
 }
-.sweets{
-  width: 80%;
-  margin: 40px auto;
+.card .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  padding:40px ;
 }
-
-.left {
-    display: flex;
-    margin-top: 50px; 
-    margin-bottom: 20px;
-   justify-content: center;
-   margin: 50px;
+.card:hover .img-top {
+  display: inline;
 }
-.left div{
-  flex: auto;
-
-
+.card{
+  padding:40px ;
 }
-.right {
-  display: flex;
-  margin-top: 20px; 
-  margin-bottom: 50px;
-  justify-content: center;
-  margin: 50px;
-}
-.right div{
-  flex: auto;
+left {
+  display:flex;
+  align-items: center;
+  gap: 50px;
 }
