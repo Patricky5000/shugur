@@ -24,3 +24,9 @@ body {
     flex-direction: row;
     justify-content: center;
 }
+.sweets > div {
+  margin: 50px;
+}
+.donut 1{
+  padding: 25px;
+}
