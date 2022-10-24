@@ -17,16 +17,30 @@ body {
     font-family: 'Titan One';
     font-size:40px
 }
+.sweets{
+  width: 80%;
+  margin: 40px auto;
+}
+
 .left {
     display: flex;
     margin-top: 50px; 
-    margin-bottom: 50px;
-    flex-direction: row;
-    justify-content: center;
+    margin-bottom: 20px;
+   justify-content: center;
+   margin: 50px;
 }
-.sweets > div {
+.left div{
+  flex: auto;
+
+
+}
+.right {
+  display: flex;
+  margin-top: 20px; 
+  margin-bottom: 50px;
+  justify-content: center;
   margin: 50px;
 }
-.donut 1{
-  padding: 25px;
+.right div{
+  flex: auto;
 }
