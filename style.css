@@ -32,10 +32,13 @@ body {
   top: 0;
   left: 0;
   z-index: 100;
-  padding:40px ;
+  padding: 40px ;
 }
 .card:hover .img-top {
   display: inline;
+}
+.card:hover .img-bottom {
+  opacity: 0;
 }
 .card{
   padding:40px ;
