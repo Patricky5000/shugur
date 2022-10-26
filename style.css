@@ -17,11 +17,11 @@ main{
 .header .logo{
   margin-left: 25%;
 }
-body {
+ body {
     font-family: pedestria-mvb, sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
   .card {
   position: relative;
   display: inline-block;
@@ -47,4 +47,43 @@ left {
   display:flex;
   align-items: center;
   gap: 50px;
+}
+#mySidenav a {
+  position: absolute;
+  left: -200px;
+  transition: 0.3s;
+  padding: 10px;
+  width: 250px;
+  text-decoration: none;
+  font-size: 36px;
+  color: white;
+  border-radius: 0 6px 6px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#index {
+  top: 100px;
+  background-color: #4590BF;
+}
+
+#donuts {
+  top: 170px;
+  background-color: #F299B9;
+}
+
+#icecream {
+  top: 240px;
+  background-color: #D94848;
+}
+
+#chocolate {
+  top: 310px;
+  background-color: #F2C53D
+}
+#pastry {
+  top: 380px;
+  background-color: #D99543
 }
