@@ -68,27 +68,32 @@ left {
 }
 
 #index {
-  top: 100px;
+  top: 200px;
   background-color: #4590BF;
+  border:5px solid #F2C53D;
 }
 
 #donuts {
-  top: 170px;
+  top: 300px;
   background-color: #F299B9;
+  border:5px solid #D94848;
 }
 
 #icecream {
-  top: 240px;
+  top: 400px;
   background-color: #D94848;
+  border:5px solid #F2C53D;
 }
 
 #chocolate {
-  top: 310px;
-  background-color: #F2C53D
+  top: 500px;
+  background-color: #F2C53D;
+  border:5px solid #4590BF;
 }
 #pastry {
-  top: 380px;
-  background-color: #D99543
+  top: 600px;
+  background-color: #D99543;
+  border:5px solid #D94848;
 }
 .list {
   display: flex;
@@ -99,7 +104,7 @@ left {
   align-items: center;
   border:5px solid #F2C53D;
   border-radius: 25px;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
   
