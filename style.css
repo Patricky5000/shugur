@@ -19,9 +19,7 @@ main{
   margin-left: 25%;
 }
  body {
-  font-family: sommet-slab, serif;
-    font-family: pedestria-mvb, sans-serif;
-    font-weight: 24 px;
+  
     
 }
   .card {
@@ -34,7 +32,7 @@ main{
   top: 0;
   left: 0;
   z-index: 100;
-  padding: 40px ;
+  padding: 20px ;
 }
 .card:hover .img-top {
   display: inline;
@@ -43,13 +41,16 @@ main{
   opacity: 0;
 }
 .card{
-  padding:40px ;
+  padding:20px ;
 }
-left {
+.left {
   display:flex;
   align-items: center;
-  gap: 50px;
-}
+  justify-content: center;
+  width:60%;
+  margin-left: auto;
+  margin-right: auto;
+  }
 #mySidenav a {
   position: absolute;
   left: -200px;
@@ -109,30 +110,69 @@ left {
   margin-right: auto;
   
 }
-.list .left{
+.list .left {
   margin: 10px;
-  flex:40%
+  flex:10%
 
 }
-.list .right{
-  padding: 10px;
+.list .right {
+padding: 10px;
   flex:40%
-  font-size:20px;
+  }
+  h1 {
+  font-family: hwt-artz, sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  font-style: normal;
+  }
+  h2 {
+  font-family: pedestria-mvb, sans-serif;
+  font-size: 40px;
+  padding: 5px;
+ }
 
-}
-
-
-h1{
+ h3 {
   font-family: hwt-artz, sans-serif;
   font-size: 40px;
-  line-height: 60px;
-  
+  font-style: normal;
+}
 
+.footer {
+  display: flex;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#F2C53D;
+  color:#D99543;
+  justify-content: space-between;
+  }
+  .footer .title {
+    margin-left:5%;
+    }
+  .footer .social {
+    display: flex;
+    margin-right:5% ;
+  }
+  
+.footer .fa {
+  padding: 5px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
 }
-h2{
-  font-family: pedestria-mvb, sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  margin-top: 10px;
-    margin-bottom: 10px;
+.fa-instagram {
+  background: #D99543;
+  color: #F2C53D;
 }
+.fa-snapchat-ghost {
+  background: #D99543;
+  color: #F2C53D;
+  
+}
+.fa-facebook {
+  background: #D99543;
+  color: #F2C53D;
+  }
